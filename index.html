@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div class="left">
+                <div class="top">
+                    <!-- Here create top of left section -->
+                     <label for="image-input" class="btn">
+                        Choose Image
+                        <input type="file" id="image-input" accept="image/*" hidden>
+                     </label>
+                     <button class="btn" id="reset-btn">Reset</button>
+                     <button class="btn" id="downlod-btn">Download</button>
+
+                </div>
+                <div class="bottom">
+                    <!-- Here create bottom of left section -->
+                     <div class="placeHolder">
+                        <i class="ri-file-image-line"></i>
+                        <p>No Image Selected</p>
+                     </div>
+                </div>
+            </div>
+            <div class="right">
+                <h2>Filters</h2>
+                <div class="filters">
+                    <div class="filter">
+                        <p>Brightness</p>
+                        <input type="range" name="Brightness" value="100" min="0" max="200" >
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+</body>
+</html>
